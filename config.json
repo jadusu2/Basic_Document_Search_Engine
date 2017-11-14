@@ -1,0 +1,18 @@
+{
+		"analyzer-options": 
+		{
+			"type": "lemma",
+			"stop-words-file": "C:\\Users\\Jaideep\\Desktop\\work\\STOP-WORDS\\stopwords_nltk.txt"
+			},
+		"engine-options": 
+		{
+			"type" : "tf-idf",
+			"index-file": "C:\\Users\\Jaideep\\Desktop\\work\\PICKLE\\newIndex.pkl",
+			"index-json": "C:\\Users\\Jaideep\\Desktop\\work\\INDEX-JSON\\newIndex.json",
+			"output-path": "C:\\Users\\Jaideep\\Desktop\\work\\output.txt",
+			"n": 1000,
+			"k": 1.2,
+			"b": 0.75
+		},
+		"docs-file": "C:\\Users\\Jaideep\\Desktop\\work\\INPUT\\dp-docs.json"		
+}

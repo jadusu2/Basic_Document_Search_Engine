@@ -1,0 +1,342 @@
+tf-idf lemma RESULTS for morningstar rated:
+Total Results returned: 68
+
+DOC: ESG Category Rank
+Value: FACT2308
+Description: ESG Percent Rank in Category A fund's percent rank within its Morningstar Category, based on its Portfolio ESG Score. Environmental Percent Rank in Category A fund's percent rank within its Morningstar Category, based on its Portfolio Environmental Score. Social Percent Rank in Category A fund's percent rank within its Morningstar Category, based on its Portfolio Sustainability Score. Governance Percent Rank in Category A fund's percent rank within its Morningstar Category, based on its Portfolio Governance Score. ESG Absolute Rank in Category A fund's absolute rank within its Morningstar Category, based on its Portfolio ESG Score. Environmental Absolute Rank in Category A fund's absolute rank within its Morningstar Category, based on its Portfolio Environmental Score. Social Absolute Rank in Category A fund's absolute rank within its Morningstar Category, based on its Portfolio Sustainability Score. Governance Absolute Rank in Category A fund's absolute rank within its Morningstar Category, based on its Portfolio Governance Score. 
+Definition: ESG Rank
+
+DOC: Morningstar Risk and Return Ranks
+Value: FACT2419
+Description: These datapoints are the percentile ranks for Morningstar Return, Morningstar Risk, and the Morningstar Risk-Adjusted Return within each Morningstar Category. The highest (or most favorable) percentile rank is 1 and the lowest (or least favorable) percentile rank is 100. Historical percentile ranks are based on a snapshot of the funds as they were at the time of the calculation. Percentile ranks within categories are most useful in those groups that have a large number of funds. For small universes, funds will be ranked at the highest percentage possible. For instance, if there are only two specialty-utility funds with 10-year average total returns, Morningstar will assign a percentile rank of 1 to the top-performing fund, and the second fund will earn a percentile rank of 51 (indicating the fund underperformed 50% of the sample).
+Definition: Morningstar Risk and Return Ranks
+
+DOC: Equity Style Box
+Value: FACT2923
+Description: The Morningstar U.S. Equity Style Box is a grid that provides a graphical representation of the investment style of stocks and portfolios. It classifies securities according to market capitalization (the vertical axis) and 10 growth and value factors (the horizontal axis) and allows us to provide analysis on a 5-by-5 Style Box as well as providing the traditional style box assignment, which is the basis for the Morningstar Category. Two of the style categories, value and growth, are common to both stocks and portfolios. However, for stocks, the central column of the style box represents the core style (those stocks for which neither value or growth characteristics dominate); for portfolios, it represents the blend style (a mixture of growth and value stocks or mostly core stocks). Furthermore, the core style for stocks is wider than the blend style for portfolios. Style Box assignments begin at the individual stock level. Morningstar determines the investment style of each individual stock in its database. The style attributes of individual stocks are then used to determine the style classification of stock portfolios. Style Coordinate (Horizontal Axis) The scores for a stock's value and growth characteristics determine its horizontal placement. There are 5 value factors and 5 growth factors. Growth and value characteristics for each individual stock are compared to those of other stocks within the same capitalization band and are scored from zero to 100 for both value and growth. To determine the overall value-growth score, the value score is subtracted from the growth score and then rescaled. The resulting score ranges from -100 (high-yield, low-growth stocks) to 400 (for low-yield, extremely growth-oriented stocks). A stock is classified as growth if the value-growth score equals or exceeds the growth threshold. It is deemed value if its score equals or falls below the value threshold. And if the score lies between the two thresholds, the stock is classified as core. The thresholds between value, core, and growth stocks vary to some degree over time, as the distribution of stock styles changes in the market. However, on average, the three stock styles each account for approximately one-third of the total free float in each size category. Size Coordinate (Vertical Axis) Rather than a fixed number of large cap or small cap stocks, Morningstar uses a flexible system that isn't adversely affected by overall movements in the market. The Morningstar stock universe represents approximately 99% of the U.S. market for actively traded stocks. Giant-cap stocks are defined as the group that accounts for the top 40% of the capitalization of the Morningstar domestic stock universe; large-cap stocks represent the next 30%; mid-cap stocks represent the next 20%; small-cap stocks represent the next 7%; and micro-cap stocks represent the remaining 3%. Each stock is given a Size Score that ranges from -100 (very micro) to 400 (very giant). When classifying stocks to a Style Box, giant is included in large and micro is included in small. 
+Definition: Equity Style Box
+
+DOC: Morningstar Analyst Rating
+Value: FACT2319
+Description: Unlike the backward-looking Morningstar Rating (often referred to as the star rating), which assigns 1 to 5 stars based on a funds past risk- and load-adjusted returns versus category peers, the Analyst Rating is the summary expression of Morningstars forward-looking analysis of a fund. Morningstar analysts assign the ratings on a five-tier scale with three positive ratings of Gold, Silver, and Bronze, a Neutral rating, and a Negative rating. The Analyst Rating is based on the analysts conviction in the funds ability to outperform its peer group and/or relevant benchmark on a risk-adjusted basis over the long term. If a fund receives a positive rating of Gold, Silver, or Bronze, it means Morningstar analysts think highly of the fund and expect it to outperform over a full market cycle of at least five years. The Analyst Rating is not a market call, and it is not meant to replace investors due-diligence process. It cannot assess whether a fund is the right fit for a particular portfolio and risk tolerance. It is intended to supplement investors and advisors own work on funds and, along with written analysis, provide forward-looking perspective into a funds abilities. It picks up where commonly watched measures of the past leave off. Research Methodology: The Five Pillars Morningstar evaluates funds based on five key pillars Process, Performance, People, Parent, and Pricewhich its analysts believe lead to funds that are more likely to outperform over the long term on a risk-adjusted basis. Analysts assign a rating of Positive, Neutral, or Negative to each pillar. Process: What is the funds strategy and does management have a competitive advantage enabling it to execute the process well and consistently over time? Performance: Is the funds performance pattern logical given its process? Has the fund earned its keep with strong risk-adjusted returns over relevant time periods? People: What is Morningstars assessment of the managers talent, tenure, and resources? Parent: What priorities prevail at the firm? Stewardship or salesmanship? Price: Is the fund a good value proposition compared with similar funds sold through similar channels? Analyst Rating Scale Gold: Best-of-breed fund that distinguishes itself across the five pillars and has garnered the analysts highest level of conviction. Silver: Fund with advantages that outweigh the disadvantages across the five pillars and with sufficient level of analyst conviction to warrant a positive rating. Bronze: Fund with notable advantages across several, but perhaps not all, of the five pillarsstrengths that give the analysts a high level of conviction. Neutral: Fund that isnt likely to deliver standout returns but also isnt likely to significantly underperform, according to the analysts. Negative: Fund that has at least one flaw likely to significantly hamper future performance and that is considered by analysts an inferior offering to its peers. 
+Definition: Morningstar Analyst Rating
+
+DOC: Morningstar Risk-Adjusted Return
+Value: FACT833
+Description: A representation of an investment's return that accounts for its level of risk. To "risk adjust" the returns of two funds means to equalize their risk levels by leveraging or deleveraging before comparing them. Simply put the MRAR equals the investment's Morningstar Return minus its Morningstar Risk. Morningstar's level of risk is calculated differently from many other methods, as it gives more weight to downside variation and does not make any assumptions about the distribution of excess returns. Morningstar Return uses historical excess returns as the basis for expected excess returns, rather than relying on analysts' forecasts or other probabilities of future returns.
+Definition: Morningstar Risk Adjusted Return
+
+DOC: ESG Score vs Category
+Value: FACT2415
+Description: ESG Score vs. Category All scored funds within a Morningstar Category are ranked by their Portfolio ESG Scores and divided into five groups, based on a normal distribution, as described below: Environmental Score vs. Category All scored funds within a Morningstar Category are ranked by their Portfolio Environmental Scores and divided into five groups, based on a normal distribution, as described below: Social Score vs. Category All scored funds within a Morningstar Category are ranked by their Portfolio Social Scores and divided into five groups, based on a normal distribution, as described below: Governance Score vs. Category All scored funds within a Morningstar Category are ranked by their Portfolio Governance Scores and divided into five groups, based on a normal distribution, as described below: Percent Rank Label Top 10% High Next 22.5% Above Average Next 35% Average Next 22.5% Below Average Bottom 10% Low 
+Definition: ESG Score vs Category
+
+DOC: Growth Grade
+Value: FACT2330
+Description: Financial Health Grade To get a high grade in this area, a company should have low financial leverage (assets/equity), high cash-flow coverage (total cash flow/long-term debt), and a high cash position (cash/assets). Also, companies with improving financial health are rewarded, while those with deteriorating health are punished. Growth Grade The growth grade for all qualified companies in Morningstar's stock universe is based on valuation of revenue per share using data from the past five years. For the purpose of calculating revenue per share we use the past five years' revenue figures and corresponding year-end fully diluted shares outstanding as per Morningstar internal data. Profitability Grade The profitability grade for all qualified companies in Morningstar's stock universe is based on valuation of return on shareholders' equity (ROE) using data from the past five years. Morningstar's universe of stocks is first filtered for adequacy of historical ROE figures. Companies with less than four years of consecutive ROE figures including the ROE figure for the latest fiscal year are tossed from calculations and are assigned "--" for the profitability grade. For the remaining qualified universe of stocks the profitability grade is based on the valuation of the following three components, which are assigned different weights: 1. The historical growth rate of ROE 2. The average level of historical ROE 3. The level of ROE in the latest fiscal year of the company
+Definition: Growth Grade - Qualitative
+
+DOC: Morningstar Rating for Stocks
+Value: FACT2786
+Description: The Morningstar Rating for Stocks is calculated by comparing a stock's current market price with Morningstar's estimate of the stock's fair value. When the Morningstar Rating for Stocks was initially launched in August 2001, it was entirely independent of a stock's risk score. A high-risk stock that was 20% overvalued or undervalued received the same star rating as a low-risk stock that was similarly overvalued or undervalued. Under our new system, implemented September 27, 2002, a stock with a lower risk score and a wider economic moat is likely to receive a higher star rating than a stock with a higher risk score and a smaller economic moat, given an equal discount (or premium) to fair value. For example, a low-risk stock with a wide economic moat needs only a 20% discount to our fair value estimate to receive a rating of five stars, while a high-risk stock with no economic moat needs a 60% discount to fair value to receive the same rating. Morningstar only rates stocks that our analysts have under full coverage. Ratings are updated daily, and can therefore change daily. They can change because of a move in the stock's price or a change in the analyst's estimate of the stock's fair value, risk rating, or economic moat rating--or any combination thereof.
+Definition: Star Rating
+
+DOC: Fair Value Uncertainty
+Value: FACT2840
+Description: Fair Value Uncertainty gives equity researchers an idea of how Morningstar classifies the company's level of business risk and how tightly bound Morningstar feels to our fair value estimate for any given company. To generate the Morningstar Fair Value Uncertainty Rating, Morningstar analysts consider the following factors: Sales predictability Operating leverage Financial leverage A firm's exposure to contingent events Based on these factors, analysts classify the stock into one of several uncertainty levels: Low, Medium, High, Very High, or Extreme. The greater the level of uncertainty, the greater the discount to fair value required before a stock can earn 5 stars, and the greater the premium to fair value before a stock earns a 1-star rating. 
+Definition: Fair Value Uncertainty
+
+DOC: ESG Category Average
+Value: FACT2418
+Description: ESG Category Average The average ESG Score for funds within a Morningstar Category that have Portfolio ESG Scores. Environmental Category Average The average Environmental Score for funds within a Morningstar Category that have Portfolio Environmental Scores. Social Category Average The average Social Score for funds within a Morningstar Category that have Portfolio Social Scores. Governance Category Average The average Governance Score for funds within a Morningstar Category that have Portfolio Governance Scores. 
+Definition: ESG Category Average
+
+DOC: Consider Buying
+Value: FACT2776
+Description: The "consider buying" price is the price at which a stock would be rated 5 stars, and thus the point at which Morningstar would consider the stock an extremely attractive purchase. 
+Definition: Consider Buying
+
+DOC: Morningstar Sustainability Rating
+Value: FACT2414
+Description: Morningstar assigns Sustainability Ratings by ranking all scored funds within a Morningstar Category by their Portfolio Sustainability Scores. The ranked funds are then divided into five groups, based on a normal distribution as described below, and each receives a rating from "High" to "Low." Percent Rank Rating Top 10% High Next 22.5% Above Average Next 35% Average Next 22.5% Below Average Bottom 10% Low 
+Definition: Morningstar Sustainability Rating
+
+DOC: Morningstar Rating
+Value: FACT302
+Description: A quantitative assessment of a fund's past performance. Funds are ranked in their Morningstar Category using their Morningstar Risk-Adjusted Return scores, with the top 10% assigned 5 stars, the next 22.5% 4 stars, the next 35% 3 stars, the next 22.5% 2 stars, and the remaining 10% 1 star.
+Definition: Morningstar Rating 
+
+DOC: Morningstar Category
+Value: DIMCHAR95
+Description: A peer group assigned by Morningstar to distinguish funds by their portfolio, investment objective, and style. Morningstar Category allows for a comparison between similar investments.
+Definition: Current (Most Recent) Morningstar Category Assginement
+
+DOC: Global Category
+Value: DIMCHAR96
+Description: The Morningstar Global Category system groups investment vehicles across the globe that invest in similar asset classes. The categories are based on the investment vehicles' underlying local Morningstar Category assignments. Entries in the Morningstar Global Category system may be broader or more granular than the local categories that constitute the global category.
+Definition: Global Category
+
+DOC: Grades
+Value: FACT974
+Description: An asset-weighted average of the relevant Morningstar grade for the underlying long stock positions in a portfolio. The financial health grade is based on valuation of a company's financial leverage, cash-flow coverage, and cash position. A proprietary formula is used to rank companies within sectors and includes a trend evaluation component. The growth grade is based on valuation of revenue per share using data from the past five years. Morningstar's universe of stocks is first filtered for adequacy of historical revenue per share figures. The profitability grade is based on valuation of return on shareholders' equity using data from the past five years. Morningstar's universe of stocks is first filtered for adequacy of historical ROE figures. Range Rating The grade assigned is based on the following: 55.0 < weighted-average score <= 60.0 A 50.0 < weighted -average score <= 55.0 A- 45.0 < weighted t-average score <= 50.0 B+ 40.0 < weighted -average score <= 45.0 B 35.0 < weighted -average score <= 40.0 B- 30.0 < weighted -average score <= 35.0 C+ 25.0 < weighted -average score <= 30.0 C 20.0 < weighted -average score <= 25.0 C- 15.0 < weighted -average score <= 20.0 D 10.0 < weighted -average score <= 15.0 D- 0 < weighted -average score <= 10.0 F
+Definition: Grades
+
+DOC: Profitability Grade
+Value: FACT2795
+Description: The profitability grade for all qualified companies in Morningstar's stock universe is based on valuation of return on shareholders' equity (ROE) using data from the past five years. Morningstar's universe of stocks is first filtered for adequacy of historical ROE figures. Companies with less than four years of consecutive ROE figures including the ROE figure for the latest fiscal year are tossed from calculations and are assigned "--" for the profitability grade. For the remaining qualified universe of stocks the profitability grade is based on the valuation of the following three components, which are assigned different weights: 1. The historical growth rate of ROE 2. The average level of historical ROE 3. The level of ROE in the latest fiscal year of the company After applying the profitability filters, for the remaining universe of qualified stocks and for all three components of the profitability grade, we calculate: 1. Z-score 2. Weight z-score 3. Rank weighted z-score 4. Map the ranked weighted z-score into profitability grades Profitability Grade Filters The filters that are applied to the qualified universe before calculating the z-scores is a key difference between the profitability growth grade calculations and the growth grade calculation. ROE raw data of the qualified universe of stocks are sequentially filtered three times and certain companies that are expunged and pre assigned F, D, and A profitability grades, respectively. 1. First Filter: If the arithmetic historical average ROE is less than zero, the stock is pre assigned F for its profitability grade. 2. Second Filter: If the ROE growth rate is negative and the latest fiscal year ROE level is less than 5%, the stock is pre assigned D for its profitability grade. 3. After the above two consecutive filters are applied, the remaining qualified stocks are filtered again for the third and last time. If the arithmetic historical average ROE is 25% or more, the ROE growth rate is positive, and the latest fiscal year ROE is greater than zero, stock will be pre assigned A for its profitability grade. The remaining stocks after this final filter are then graded based on their average z-score ranks. Historical Growth Rate of Return on Equity A simple regression is performed on five-year historical ROE figures - a minimum of four (4) consecutive years of ROE figures including the latest fiscal year figure is required. In calculating this component of profitability the slope of the regression line will be divided by the arithmetic average of "absolute" value of historical ROEs - this is different than regression analysis applied to growth calculations and reflects the fact that ROEs can be negative. The result of the regression is a normalized annualized historical increase or decrease in the rate of growth for ROE. Z-Score and Profitability Grading Because we already pre-graded the special situations based on the filters described previously for grades F, D, and A, we don't need to worry about the A and F grades. There could, however, be more Ds in the universe. Therefore, we calculate the z-score for the qualified stocks that remain after the previously described three consecutive filters. The final weighted average z-score of the three components of profitability grade is calculated as follows; Weighted Average Z-Score = 25% (Z-score calculated from the historical growth rate of ROE) - component 1 + 50%( Z-score calculated from the average level of historical ROE) - component 2 + 25% (Z-score calculated from the level of ROE in the latest fiscal year of the company) - component 3 Within remaining universe of qualified stocks is sorted based on the stocks' final weighted average z-score from negative to positive. Stocks are then ranked from 1 to total number of stocks based on their final weighted average z-score. Each stock rank is then divided by the total number of stocks to calculate the cumulative percentile rankings. Ranking and Mapping of Z-Scores for Profitability Grades Qual Stock Universe Cumulative Grade Filtered Universe NA F, D, and A Remaining Universe Rank - Low to High Cumulative Universe Grade 25 % 25 % D 50 % 75 % C 25 % 100 % B 
+Definition: Profitability Grade - Qualitative
+
+DOC: Style Box
+Value: FACT973
+Description: The Morningstar Style Box provides an intuitive visual representation of style that helps investors build better portfolios and monitor them more precisely. It classifies securities according to market capitalization (the vertical axis) and growth and value factors (the horizontal axis). Style-box assignments begin at the individual stock level. Morningstar determines the investment style of each individual stock in its database. The style attributes of individual stocks are then used to determine the style classification of stock portfolios.
+Definition: Style Box
+
+DOC: Morningstar Risk
+Value: FACT835
+Description: An annualized measurement of a share class' downside volatility over a defined period. The Morningstar Risk is calculated only for those investments with at least three years of performance history. The larger the number, the more downside risk an investment has.
+Definition: Morningstar Risk
+
+DOC: Morningstar Fee Level % Rank
+Value: FACT2716
+Description: The percentile rank of the Morningstar Fee Level. 
+Definition: Morningstar Fee Level % Rank
+
+DOC: Morningstar Return
+Value: FACT834
+Description: An annualized measurement of a fund's load-adjusted excess return relative to the return of risk-free rate over a defined period. The Morningstar Return is calculated only for those investments with at least three years of performance history.
+Definition: Morningstar Return
+
+DOC: Morningstar Fee Level
+Value: FACT2715
+Description: The Morningstar Fee Level evaluates a mutual fund share class's expense ratio relative to other funds that invest in a similar asset class and have similar distribution characteristics. Within each Comparison Group, a fund share class' expense ratio is ranked against its peers using five quintiles. Each quintile corresponds to one of the following scores: Low: Least Expensive quintile, Below Average: Second- Least Expensive quintile, Average: Middle quintile, Above Average: Second- Most Expensive quintile, High: Most Expensive quintile. 
+Definition: Morningstar Fee Level
+
+DOC: Sustainability Category Rank
+Value: FACT2310
+Description: Sustainability Percent Rank in Category A fund's percent rank within its Morningstar Category, based on its Portfolio Sustainability Score. Sustainability Absolute Rank in Category A fund's absolute rank within its Morningstar Category, based on its Portfolio Sustainability Score. 
+Definition: Sustainability Rank
+
+DOC: Morningstar Fee Level Group
+Value: FACT2717
+Description: The Morningstar Fee Level Group is the comparison group of funds that invest in a similar asset class and have similar distribution characteristics. There are 43 category groups, such as Aggressive Allocation, Bank Loan, and World Stock, which are further differentiated into 5 additional categories of Front Load, Deferred Load, Level Load, No Load, and Institutional Load for a total of 215 groups that allow for "apples to apples" comparison of fund share classes with similar asset class, distribution channel and expense structure. 
+Definition: Morningstar Fee Level Group
+
+DOC: Equity Style Box Breakdown
+Value: FACT1102
+Description: The percentage of the portfolio's equity assets invested in stocks displaying the relevant style and size criteria. This information is part of the proprietary Morningstar data point, the Morningstar Style Box. The nine-square grid provides a graphical representation of the "investment style" of stocks and mutual funds. For stocks and stock funds, it classifies securities according to market capitalization (the vertical axis) and growth and value factors (the horizontal axis).This may be displayed as a percentage of the long only investments for the entire portfolio (long), short positions only (short), long and short positions (net), or of the long (or short) only positions reweighted so the total of the long (or short) positions equals 100% (long or short rescaled).
+Definition: Equity Style Box Breakdown
+
+DOC: Controversy Category Rank
+Value: FACT2309
+Description: Controversy Percent Rank in Category A fund's percent rank within its Morningstar Category, based on its Portfolio Controversy Score. Controversy Absolute Rank in Category A fund's absolute rank within its Morningstar Category, based on its Portfolio Controversy Score. 
+Definition: Controversy Rank
+
+DOC: Morningstar Category Start Date
+Value: DIMCHAR161
+Description: The effective date the fund should be considered to be a constituent of the current Morningstar Category assigned to it for analysis purposes.
+Definition: Current (Most Recent) Morningstar Category Start Date
+
+DOC: Morningstar Category Primary Benchmark Id
+Value: DIMCHAR72
+Description: The Morningstar identifier for the benchmark assigned to a Morningstar Category for standard risk calculations.
+Definition: MPT Benchmark Id
+
+DOC: Morningstar Fee Level Group Median
+Value: FACT2718
+Description: "The Morningstar Fee Level compares an investment vehicle's relative level of fees with those of other vehicles that invest in a similar asset class and have similar distribution characteristics. Within each Comparison Group, an investment's total expense statistic is ranked against its peers using five quintiles:- Low ( Least Expensive quintile), Below Average, Average, Above Average and High (the Most Expensive quintile). The investment's percentile rank in the comparison group is also calculated as are the breakpoint between the quintiles. This is the median fee for the peer group. "
+Definition: Morningstar Fee Level Group Median
+
+DOC: Number of Funds Analyzed in Category - Controversy
+Value: FACT2312
+Description: The number of funds in a Morningstar Category that reach the minimum coverage threshold needed to receive a Portfolio Controversy Score.
+Definition: Number of Funds Analyzed in Category - Controversy
+
+DOC: Controversy Score vs Category
+Value: FACT2413
+Description: Controversy Score vs. Category All scored funds within a Morningstar Category are ranked by their Portfolio Controversy Scores and divided into five groups, based on a normal distribution, as described below: Percent Rank Label Top 10% High Next 22.5% Above Average Next 35% Average Next 22.5% Below Average Bottom 10% Low For the Portfolio Controversy Score, Low is considered preferable to High, as it indicates fewer controversies for a fund's holdings relative to those of other funds in its category. 
+Definition: Controversy Score vs Category
+
+DOC: Equity Type Breakdown
+Value: FACT1114
+Description: The percentage noncash equity assets in a fund's portfolio. Morningstar divided stocks into eight types based on objective financial criteria and an `other' type for those that cannot easily be classified into one of those eight. Aggressive growth companies are those whose revenues have grown at least 15% annually over the past five years and whose earnings have grown at least 20% annually. Classic growth companies are growing respectably faster than the general economy and often pay a steady dividend. They tend to be mature and solidly profitable businesses. Cyclical companies' profits tend to rise and fall with the general economy. This includes companies in the cyclicals and durables sectors. Distressed companies have posted consistently declining cash flows and earnings over the past three years, and some may be bankrupt. Hard asset companies deal in assets such as oil, metals, and real estate, which tend to do well in inflationary environments. High-yield companies have dividend yields at least twice the S&P 500 average. They tend to grow slowly and have low valuations. Slow growth companies' earnings have grown over the past five years but at less than twice the pace of the gross domestic product. Speculative growth companies have had revenue growth of at least 25% in the past two years but earnings growth of no more than 20%. They tend to be new and more volatile than other growth stocks.
+Definition: Equity Type Breakdown
+
+DOC: ESG Company Scores - % AUM Distribution
+Value: FACT2307
+Description: AUM Distribution by Sustainalytics Company ESG Score Sustainalytics ranks firms by their Company ESG Scores versus their industry peers. Morningstar divides these industry peers into five groups, based on a normal distribution, as described below, and calculates the percent of AUM of a portfolio that is invested in each. Percent Rank Label Top 10.5% High Next 22.5% Above Average Next 35% Average Next 22.5% Below Average Bottom 10% Low The following column headings are used for these data points: Percent of AUM With High ESG Scores Percent of AUM With Above Average ESG Scores Percent of AUM With Average ESG Scores Percent of AUM With Below Average ESG Scores Percent of AUM With Low ESG Scores 
+Definition: ESG Breakdown
+
+DOC: Tax Cost Ratio
+Value: FACT860
+Description: The Morningstar tax-cost ratio measures how much a fund's annualized return is reduced by the taxes investors pay on distributions.
+Definition: TAX COST RATIO
+
+DOC: Base Currency
+Value: DIMCHAR80
+Description: The default currency used in Morningstar's products for the investment. This is the reference currency of the investment.
+Definition: Base Currency
+
+DOC: Morningstar Category Primary Benchmark
+Value: DIMCHAR123
+Description: A benchmark assigned to a Morningstar Category to facilitate the calculation of comparable standard risk calculations for the peer group.
+Definition: MPT Benchmark
+
+DOC: Fund Standard Name
+Value: DIMCHAR121
+Description: The name of the fund. This name would be common to all share classes of the portfolio.
+Definition: Morningstar's Name of the Fund
+
+DOC: Quantitative Valuation
+Value: FACT3013
+Description: Morningstar's Quantitative Valuation is the ratio of the Quantitative Fair Value to the current market price. 
+Definition: Quantitative Valuation
+
+DOC: Best Return
+Value: FACT1034
+Description: The investment's best periodic return since the investment's inception, or for as long as Morningstar has data available. Users can define the length of the period for which the best return will be calculated.
+Definition: Best Investment Return
+
+DOC: Number of Investments in Morningstar Rating
+Value: FACT2679
+Description: None
+Definition: Number of Investments in Morningstar Rating
+
+DOC: Number of Funds Analyzed in Category - Sustainability
+Value: FACT2313
+Description: The number of funds in a Morningstar Category that reach the minimum coverage threshold needed to receive a Portfolio Sustainability Score.
+Definition: Number of Funds Analyzed in Category - Sustainability
+
+DOC: Investor Return
+Value: FACT859
+Description: A measurement of how the average investor fared in a fund over a period of time. The Morningstar Investor Return (also known as dollar-weighted return) incorporates the impact of cash inflows and outflows from purchases and sales and the growth in fund assets. It is the growth rate, or internal rate of return, that will link the beginning total net assets plus all intermediate cash flows to the ending total net assets.
+Definition: INVESTOR RETURN
+
+DOC: Sustainability Category Average
+Value: FACT2417
+Description: Sustainability Category Average The average Sustainability Score for funds within a Morningstar Category that have Portfolio Sustainability Scores. 
+Definition: Sustainability Category Average
+
+DOC: Morningstar Risk Rating
+Value: FACT884
+Description: A rating based on the annualized measurement of a share class' downside volatility over three, five, or 10 years or an overall rating based on a weighting of the three periods. The share classes are ranked from lowest downside volatility to highest downside volatility, and the top 10% are assigned a High rating, the next 22.5% an Above Average rating, the middle 35% an Average rating, the next 22.5% a Below Average rating, and the bottom 10% a Low rating.
+Definition: Morningstar Risk Rating
+
+DOC: Strategy Name
+Value: DIMCHAR682
+Description: The name describing a unique manager strategy. Morningstar defines strategy as the overall manner in which a pool of money is managed by applying an investment philosophy.
+Definition: STRATEGYNAME
+
+DOC: Morningstar Return Rating
+Value: FACT889
+Description: A rating based on the annualized measure of a share class's load-adjusted excess return relative to the return of risk free rate over three, five, or ten-years or an overall based on a weighting of the three periods. The top 10% of investments are assigned a High rating, the next 22.5% an above average rating, the middle 35% an average rating, the next 22.5% a below average rating and the bottom 10% a low rating. 
+Definition: Morningstar Return Rating
+
+DOC: Equity Sector Breakdown - Morningstar
+Value: FACT1106
+Description: The percentage of the portfolio's equity exposure referenced to the related sector breakdown. This may be displayed as a percentage of the long only investments for the entire portfolio (long), short positions only (short), long and short positions (net), or of the long only positions reweighted so the total of the long positions equals 100% (long rescaled).
+Definition: Equity Sector Breakdown - Morningstar
+
+DOC: Sector
+Value: DIMCHAR848
+Description: There are 11 Morningstar Sectors available: Basic Materials, Communication Services, Consumer Cyclical, Consumer Defensive, Energy, Financial Services, Healthcare, Industrials, Real Estate, Technology, and Utilities.
+Definition: SECTOR NAME
+
+DOC: Equity Industry Breakdown
+Value: FACT1190
+Description: The percentage of the portfolio's noncash equity assets in this industry according to the Morningstar Global Equity Classification Structure. This may be displayed as a percentage of the long only investments for the entire portfolio (long), short positions only (short), long and short positions (net), or of the long only positions reweighted so the total of the long positions equals 100% (long rescaled).
+Definition: Equity Industry Breakdown
+
+DOC: Performance Inception Date
+Value: DIMCHAR198
+Description: The date the performance of the investment starts to be taken into account for risk/return calculations. Performance start date may be different from the inception date where the investment has a track record extension (or in the case of a benchmark where data has been back-calculated) or some other event that impacts the suitability of the performance information prior to the event in question, according to Morningstar methodology.
+Definition: PERFORMANCEINCEPTIONDATE
+
+DOC: Average Price
+Value: FACT932
+Description: A Morningstar-calculated value derived by weighting the price of each bond using its relative size in the portfolio. This number reveals if the manager favors bonds selling at prices above or below face value (discount or premium securities, respectively).
+Definition: Average Price
+
+DOC: Turnover Ratio %
+Value: FACT2393
+Description: There are three methods of calculating the Turnover Ratio: US SEC, UCITS, and Taiwan FSC. US SEC measures the portfolio manager's trading activity by taking the lesser of purchases or sales (excluding all securities with maturities of less than one year) and dividing by average monthly net assets. A turnover ratio of 100% or more does not necessarily suggest that all securities in the portfolio have been traded. In practical terms, the resulting percentage loosely represents the percentage of the portfolio's holdings that have changed over the past year. UCITS calculates turnover ratio by (absolute value of purchases + absolute value of sales) - (absolute value of inflows + absolute value of outflows), all divided by average net assets. Taiwan FSC takes the absolute value of purchases divided by the product of average bet assets and the maximum equity positions of the portfolio specified by the fund's prospectus. 1. US SEC Turnover =esser of P or S, divided by Ave Net Assets P =bsolute value of all purchases for portfolio (e.g., all securities bought by the PM) S =bsolute value of all sales from portfolio Flows are not accounted for. Notes and distinguishing features: a. If a manager sells all the securities in the portfolio and replaces them with new ones, turnover is 100%. b. Negative turnover is not possible. c. Can be easily distorted by big changes in Ave Net Assets (for example, if ANA shrinks sharply, not only will transactions increase due to the activity, but as the denominator shrinks, the ratio can get very large). 2. UCITS Turnover = ( P + S ) - ( I + O) ] / Ave Net Assets P =bsolute value of all purchases for portfolio (e.g., all securities bought by the PM) S =bsolute value of all sales from portfolio I =bsolute value of all flows of cash into the fund from investors O =bsolute value of all flows of cash out of the fund (investor redemptions) Notes and distinguishing features: a. In the absence of flows, the UCITS methodology double counts turnover. For example, if a manager sells all the securities in the portfolio and replaces them, turnover is 200% (not 100%). Selling and replacing 50% of the assets in the fund gets you 100% turnover, etc. b. The calculation is based on the assumption that all flow activity triggers trades and that these trades should not be counted as turnover (hence the subtraction of the gross absolute value of flows). c. That assumption is often incorrect as flows can be netted against each other, resulting in far lower trading needed, if any, and the manager can use cash stakes to absorb outflows or allow cash to build in the case of inflows. d. If there is flow activity that does not result in trading, you can have NEGATIVE turnover ratios-this is a reasonably frequent occurrence. 3. Taiwan FSC In Taiwan, Taiwan's Financial Supervisory Commission suggests the following calculations. Noticeably it has two turnover ratios to reflect the portfolio's purchases and sales separately. It is compulsory for Taiwan domiciled funds to provide both turnover ratios on a monthly basis. The lower value of the two will be published and made available to the public by the Securities Investment Trust & Consulting Association funds (Taiwan's funds industry association) as the turnover ratio. FSC Purchase Turnover =/ (Ave Net Assets x E) P =bsolute value of all equity purchase for portfolio E =aximum equity positions of the portfolio specified by the fund's prospectus FSC Sales Turnover = - O - D/ (Ave Net Assets x E) S=bsolute value of all equity sales from portfolio O =bsolute value of all flows of cash out of the fund (investor redemptions) D=istributed dividends *There is NO Turnover ratio for bond funds. There is a newly proposed Turnover ratio calculation but it has not been disclosed. Notes and distinguishing features: a. Negative sales turnover is possible but not for the purchase one. b. Can be easily distorted by big changes in Ave Net Assets for equity funds while specified maximum equity positions affects the balanced funds the most. Below is a list of countries we know using each methodology: Hong Kong: UCITS Benelux: UCITS UK: UCITS France: UCITS Spain: UCITS Sweden: US SEC (although it may differ slightly: the Swedish version excludes derivatives, equity loans, and for equity funds, fixed interest securities with maturity <1yr) India: US SEC USA: US SEC Taiwan: Taiwan FSC Australia: US SEC (Morningstar requests that methodology to be used, and it's not necessarily industry standard) 
+Definition: Turnover Ratio
+
+DOC: FundId
+Value: DIMCHAR133
+Description: The Morningstar identifier for a fund. This identifier is common to all share classes of the portfolio.
+Definition: FUNDID
+
+DOC: Global Investment Fund Sector (GIFS)
+Value: DIMCHAR90
+Description: A peer group assigned by Morningstar to distinguish funds by their portfolio, investment objective, and style. The Global Investment Fund Sector, or GIFS, allows for a comparison between similar investments.
+Definition: Global Investment Fund Sector (GIFS)
+
+DOC: Best Fit Statistics
+Value: FACT2700
+Description: Alpha/Beta: This is calculated using the market index that shows the highest correlation (R-squared) between a portfolio and an index, over the most recent 36 months, based on the best fit R-squared. Best Fit Index: The market index that shows the highest correlation with a fund over the most-recent 36 months, as measured by the highest R-squared. Morningstar regresses a fund's monthly excess returns against the monthly excess returns of several well-known market indexes. See separate documents to determine which indexes are available for this calculation. 
+Definition: Best Fit Statistic
+
+DOC: Economic Moat Breakdown
+Value: FACT1198
+Description: The percentage of the portfolio invested in stocks with the related Morningstar Economic Moat Rating (wide, narrow, or none). This may be displayed as a percentage of the long only investments for the entire portfolio (long), short positions only (short), long and short positions (net), or of the long (or short) only positions reweighted so the total of the long (or short) positions equals 100% (long or short rescaled).
+Definition: Economic Moat Breakdown
+
+DOC: Number of Funds Analyzed in Category - ESG
+Value: FACT2311
+Description: The number of funds in a Morningstar Category that reach the minimum coverage threshold needed to receive a Portfolio ESG Score.
+Definition: Number of Funds Analyzed in Category - ESG
+
+DOC: Strategic Beta Group
+Value: DIMCHAR271
+Description: The overarching strategic objective of the index or investable product that tracks the index. Morningstar has placed these objectives into three buckets: return-oriented strategies, risk-oriented strategies, and other.
+Definition: Strategic Beta Group
+
+DOC: Style Factor
+Value: FACT972
+Description: One of the ten factors used to calculate the style component of the Morningstar Equity Style Box.
+Definition: Style Factor
+
+DOC: Worst Return
+Value: FACT1035
+Description: The investment's worst periodic return since the investment's inception, or for as long as Morningstar has data available. Users can define the length of the period for which the worst return will be calculated.
+Definition: Worst Investment Return
+
+DOC: PerformanceId
+Value: DIMCHAR75
+Description: The Morningstar unique identifier for the performance of an investment.
+Definition: PERFORMANCEID
+
+DOC: Number of Distinct Portfolios in Morningstar Rating
+Value: FACT2680
+Description: None
+Definition: Number of Distinct Portfolios in Morningstar Rating
+
+DOC: SecId
+Value: DIMCHAR132
+Description: The Morningstar identifier for a share class of an investment.
+Definition: SECID
+
+DOC: Peer Group Description
+Value: DIMCHAR193
+Description: A description of the fund's peer group, including its region/domicile, investment type, and category.
+Definition: Description of Region/Country + Universe + Morningstar Category
+
+DOC: Controversy Category Average
+Value: FACT2416
+Description: Controversy Category Average The average Controversy Score for funds within a Morningstar Category that have Portfolio Controversy Scores. 
+Definition: Controversy Category Average
+
+DOC: Yield to Maturity
+Value: FACT957
+Description: The average yield to maturity of the investment's portfolio. The calculation of yield to maturity takes into account the market prices as of the date of the portfolio, par value, coupon interest rate, and time to maturity. Morningstar typically surveys this information.
+Definition: Yield to Maturity
+
+DOC: Stewardship Rating - Qualitative
+Value: FACT2801
+Description: Morningstar's Stock Stewardship Rating represents our assessment of management's stewardship of shareholder capital, with particular emphasis on capital allocation decisions. Analysts consider companies' investment strategy, history of investment timing and valuation, financial leverage, dividend and share buyback policies, execution, management compensation, related party transactions, and accounting practices. Corporate governance practices, such as poison pills and staggered boards, are only considered if they've had a demonstrated impact on shareholder value. Analysts assign one of three stewardship ratings: "exemplary," "standard," and "poor." Analysts judge stewardship from an equity holder's perspective. Ratings are determined on an absolute basis. Companies are judged not against peers within their industry, but against ideal stewardship of shareholder capital. Most companies will receive a standard rating, and this should be considered the default rating in the absence of evidence that a management team has made exceptionally strong or poor capital allocation decisions.
+Definition: Stewardship Rating - Qualitative
+
+DOC: Best Fit Index
+Value: FACT2744
+Description: Best Fit Index: The market index that shows the highest correlation with a fund over the most-recent 36 months, as measured by the highest R-squared. Morningstar regresses a fund's monthly excess returns against the monthly excess returns of several well-known market indexes. See separate documents to determine which indexes are available for this calculation.
+Definition: Best Fit Statistic Index
